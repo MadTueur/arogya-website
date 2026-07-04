@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consult Now — Arogya Cita Indonesia</title>
+<meta name="description" content="Tell us your needs. We'll help you build the perfect gym setup.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar bg-dark">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/pictures/Logo Header.png" alt="Arogya Logo" class="brand-logo">
+
+
+    <nav class="nav-links">
+      <a href="index.html" data-nav>Home</a>
+      <a href="who-we-are.html" data-nav>Who We Are</a>
+      <a href="catalog.html" data-nav>Our Catalog</a>
+      <a href="consult.html" data-nav>Consult Now</a>
+    </nav>
+
+    <button class="menu-toggle" data-menu-toggle aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" data-mobile-menu>
+  <div class="mobile-menu-top">
+    <a href="index.html" class="brand">
+      <img src="assets/pictures/logo.png" alt="Arogya logo" class="brand-logo-img">
+      
+    </a>
+    <button class="menu-toggle" data-menu-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+    </button>
+  </div>
+
+<div class="mobile-menu-badge">
+    <img src="assets/pictures/logo.png" alt="Arogya Cita Indonesia" style="width:150px;height:150px;object-fit:contain;">
+  </div>
+
+  <nav class="mobile-nav-links">
+    <a href="index.html" data-nav>Home</a>
+    <a href="who-we-are.html" data-nav>Who We Are</a>
+    <a href="catalog.html" data-nav>Our Catalog</a>
+    <a href="consult.html" data-nav>Consult Now</a>
+  </nav>
+
+  <div class="mobile-menu-foot">
+    <a href="consult.html" class="btn btn-white btn-block">Start Consultation</a>
+  </div>
+</div>
+
+
+<!-- ============ HERO ============ -->
+<section class="hero bg-dot-texture" style="padding-bottom:56px;">
+  <div class="container">
+    <h1 class="hero-title display display--xbold display--slant grad-text" style="font-size:44px;">Book a Consultation</h1>
+    <p class="hero-sub consult-sub">Tell us your needs. We'll help you build the perfect gym setup.</p>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS + BOOKING FORM ============ -->
+<section class="section bg-lime">
+  <div class="container consult-grid">
+
+    <!-- How it works -->
+    <div class="panel">
+      <h2 class="panel-title">How It Works</h2>
+      <div class="steps-list">
+        <div class="step-item">
+          <div class="step-num display">01</div>
+          <div>
+            <h4>Fill the form</h4>
+            <p>Enter your name, business type, equipment needs, and preferred schedule.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num display">02</div>
+          <div>
+            <h4>We confirm</h4>
+            <p>Our team will contact you within 1 business day to confirm your appointment.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num display">03</div>
+          <div>
+            <h4>Meet the owner</h4>
+            <p>Discuss your requirements directly with our founder &amp; equipment specialist.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num display">04</div>
+          <div>
+            <h4>Get a proposal</h4>
+            <p>Receive a tailored equipment proposal with pricing and delivery timeline.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Booking form -->
+    <div class="panel">
+      <h2 class="form-title">Booking Form</h2>
+      <h3 class="form-subtitle">Booking Form</h3>
+
+      <div class="form-success" data-form-success>
+        Terima kasih! WhatsApp akan terbuka dengan pesan yang sudah terisi otomatis — tinggal tekan kirim di sana.
+      </div>
+
+      <form data-booking-form novalidate>
+        <div class="field">
+          <label for="full_name">Full Name</label>
+          <input type="text" id="full_name" name="full_name" placeholder="e.g. Reza Pratama" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="e.g. reza@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="e.g. +62 812-3456-7890" required>
+        </div>
+
+        <div class="field">
+          <label for="business_type">Business Type</label>
+          <input type="text" id="business_type" name="business_type" placeholder="e.g. Gym Owner / Hotel / Home Gym / Corporate">
+        </div>
+
+        <div class="field">
+          <label for="equipment_needs">Equipment Needs</label>
+          <textarea id="equipment_needs" name="equipment_needs" placeholder="e.g. Treadmill x3, Rack x2, Dumbbell set..."></textarea>
+        </div>
+
+        <div class="field">
+          <label>Estimated Budget</label>
+          <input type="hidden" id="estimated_budget" name="estimated_budget" value="">
+          <div class="budget-grid">
+            <button type="button" class="budget-opt" data-budget="< Rp 50 Juta">&lt; Rp 50 Juta</button>
+            <button type="button" class="budget-opt" data-budget="Rp 50-200 Juta">Rp 50-200 Juta</button>
+            <button type="button" class="budget-opt" data-budget="Rp 200-500 Juta">Rp 200-500 Juta</button>
+            <button type="button" class="budget-opt" data-budget="> Rp 500 Juta">&gt; Rp 500 Juta</button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-ink btn-block btn-lg">Submit &amp; Schedule Consultation →</button>
+        <p class="form-note">Dengan menekan tombol di atas, WhatsApp akan terbuka berisi ringkasan data Anda untuk dikirim ke tim kami.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-badge">
+        <img src="assets/pictures/Logo Footer.png" alt="Arogya Cita Indonesia" class="footer-badge-img">
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="who-we-are.html">Who We Are</a>
+        <a href="catalog.html">Our Catalog</a>
+        <a href="consult.html">Consult Now</a>
+      </div>
+
+      <div class="footer-addr">
+        <strong>Address</strong>
+        Jl. RS. Fatmawati Raya, komplek Ruko Golden Fatmawati no. 15A, RT.008/RW.006,
+        Desa/Kelurahan Gandaria Selatan, kecamatan Cilandak, kota Adm. Jakarta Selatan,
+        provinsi DKI Jakarta, Kode Pos: 12420
+
+        <div class="footer-contact">
+          <a href="https://wa.me/6288996585497">+62 889-9658-5497</a>
+          <a href="mailto:arogyacitaindonesia@gmail.com">arogyacitaindonesia@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">© 2026 CV. Arogya Cita Indonesia · All rights reserved.</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
